@@ -2,7 +2,7 @@
 
 Bu proje, Raspberry Pi Compute Module 4 (CM4) için sıfırdan tasarlanmış özel bir taşıyıcı kart (Carrier/IO Board) donanım mimarisini içermektedir. 
 
-Tasarım süreci; yüksek hızlı sinyal yönlendirme (High-Speed Routing), diferansiyel çift (Differential Pair) kuralları, empedans kontrolü ve çok katmanlı PCB (Multilayer Stackup) mimarisi gibi ileri seviye donanım mühendisliği prensipleri temel alınarak gerçekleştirilmiştir.
+Tasarım süreci; yüksek hızlı sinyal yönlendirme (High-Speed Routing), diferansiyel çift (Differential Pair) kuralları, empedans kontrolü gibi donanım mühendisliği prensipleri temel alınarak gerçekleştirilmiştir.
 
 
 ---
@@ -25,7 +25,7 @@ Tasarım süreci; yüksek hızlı sinyal yönlendirme (High-Speed Routing), dife
 ## 🧠 Mühendislik Yaklaşımı ve Karşılaşılan Zorluklar
 
 Bu kart tasarlanırken basit bir şematik birleştirmeden ziyade, aşağıdaki donanım mühendisliği kuralları sıkı bir şekilde uygulanmıştır:
-1. **Empedans Kontrolü (Impedance Control):** USB (90Ω) ve PCIe/HDMI (100Ω) diferansiyel hatları için özel hat kalınlığı (trace width) ve boşluk (clearance) kullanılmmıştır
+1. **Empedans Kontrolü (Impedance Control):** USB (90Ω) ve ETHERNET(100Ω) diferansiyel hatları için özel hat kalınlığı (trace width) ve boşluk (clearance) kullanılmıştır
 2. **Uzunluk Eşitleme (Length Matching):** Yüksek hızlı sinyallerde faz farkını önlemek amacıyla teknikler kullanılmıştır.
 
 
